@@ -17,9 +17,9 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: focus_jaredatron_com_development
+  database: focus_development
   pool: 5
-  username: focus_jaredatron_com
+  username: focus
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -46,15 +46,15 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: focus_jaredatron_com_test
+  database: focus_test
   pool: 5
-  username: focus_jaredatron_com
+  username: focus
   password:
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: focus_jaredatron_com_production
+  database: focus_production
   pool: 5
-  username: focus_jaredatron_com
+  username: focus
   password:

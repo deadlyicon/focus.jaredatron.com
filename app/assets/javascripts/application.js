@@ -18,9 +18,9 @@
 //= require ember
 //= require ember-data
 //= require_self
-//= require focus_jaredatron_com
+//= require focus
 
 // for more details see: http://emberjs.com/guides/application/
-FocusJaredatronCom = Ember.Application.create();
+Focus = Ember.Application.create();
 
 //= require_tree .

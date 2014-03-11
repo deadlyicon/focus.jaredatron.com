@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-FocusJaredatronCom::Application.config.secret_key_base = 'ce7c7af8a49fd683723249188b8197462ce15c3e81181b46560261b54a35fcf496c36cf90c2cfa2fef3b75c96ba4f92ced36bd2b50bfbce296cc80984cc41fb6'
+Focus::Application.config.secret_key_base = 'ce7c7af8a49fd683723249188b8197462ce15c3e81181b46560261b54a35fcf496c36cf90c2cfa2fef3b75c96ba4f92ced36bd2b50bfbce296cc80984cc41fb6'
