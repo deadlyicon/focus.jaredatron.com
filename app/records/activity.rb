@@ -1,3 +1,3 @@
 class Activity < ActiveRecord::Base
-  validate :description, presence: true, unique: true
+  validate :description, presence: true, uniqueness: true
 end

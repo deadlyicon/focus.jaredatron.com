@@ -22,4 +22,6 @@ ActiveRecord::Schema.define(version: 20140311010404) do
     t.datetime "updated_at"
   end
 
+  add_index "activities", ["description"], name: "index_activities_on_description", unique: true, using: :btree
+
 end
