@@ -1,2 +1,48 @@
 @import compass
 @import reset
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900)
+@import constants
+
+
+html, body, .page
+  height: 100%
+  width: 100%
+  // background-color: $midnight-blue-color
+  // (radial, center center, 0px, center center, 100%, color-stop(0%,#34495e), color-stop(100%,#2c3e50));
+  // +background-image(radial-gradient(color-stops(0%,#34495e,100%,#2c3e50)))
+  +background-image(radial-gradient(#34495e 0%, #2c3e50 100%))
+
+
+  color: $clouds-color
+  overflow: hidden
+  font-family: lato
+  letter-spacing: 2px
+  text-shadow: 1px 1px black
+  font-size: 16px
+
+.button
+  display: block
+  padding: 0.75em
+  // background-color: $wet-asphalt-color
+  background-color: rgba(255,255,255,0.02)
+  border: 1px solid $midnight-blue-color
+  border-bottom: none
+  text-align: center
+  &:hover, &:active
+    background-color: rgba(255,255,255,0.05)
+
+
+
+
+.page > .buttons
+  position: absolute
+  left: 0
+  bottom: 0
+  right: 0
+
+.current-time
+
+.current-activity
+  font-size: 19px
+  text-align: center
+  padding: 2em
