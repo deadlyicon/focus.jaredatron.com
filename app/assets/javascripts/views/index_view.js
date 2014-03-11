@@ -2,5 +2,5 @@
 
 Focus.IndexView = Ember.View.extend({
   templateName: 'index',
-  classNames: ['content'],
+  classNames: ['index-view'],
 });
