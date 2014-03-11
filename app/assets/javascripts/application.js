@@ -13,4 +13,14 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require jquery
+//= require handlebars
+//= require ember
+//= require ember-data
+//= require_self
+//= require focus_jaredatron_com
+
+// for more details see: http://emberjs.com/guides/application/
+FocusJaredatronCom = Ember.Application.create();
+
 //= require_tree .
