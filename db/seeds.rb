@@ -5,3 +5,25 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+activities = <<-ACTIVITIES.split("\n")
+waking up
+weighing your self
+drinking a protien shake
+working out
+showering
+shaving
+making your bed
+walking to Apportable
+Doing the Threadable standup
+planing your day
+brushing your teeth
+taking a sleeping pill
+starting your sleep tracker
+eyes closed in bed
+ACTIVITIES
+
+activities.each do |activity|
+  Activity.create!(description: activity)
+end
