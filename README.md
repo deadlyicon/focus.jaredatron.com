@@ -4,10 +4,11 @@
 Activity
 
   description: 'working out'
-  schedulings
+  has_many schedulings
 
 ActivitySchedule
 
+  activity_id
   day_of_the_week
   start_hour
   est_duration
@@ -43,3 +44,12 @@ You are working out right now
   [   I'm done   ]
   [ Didn't do it ]
 --------------------------------------------
+
+
+
+
+
+
+# Pushover
+
+curl -s -F "token=xxxxx" -F "user=yyyy" -F "message=hello+STEVE" https://api.pushover.net/1/messages.json
